@@ -136,8 +136,8 @@
 			<g:layer left="2px" width="1270px" top="633px" height="2px">
 				<g:VerticalSplitPanel height="20" width="100%"/>
 			</g:layer>
-			<g:layer left="951px" width="319px" top="657px" height="18px">
-				<g:Label text="Licensed under GNU GPL v2.0 - Developed by ETX Software Inc. (ETX.ca)" width="500" ui:field="lblcopyright"/>
+			<g:layer left="851px" width="519px" top="657px" height="18px">
+				<g:Label text="Licensed under GNU GPL v2.0 - Developed by ETX Software Inc. (ETX.ca)" width="700" ui:field="lblcopyright"/>
 			</g:layer>
 			<g:layer left="0px" width="1270px" top="0px" height="2px">
 				<g:VerticalSplitPanel height="20" width="100%"/>
