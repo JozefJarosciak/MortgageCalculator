@@ -137,6 +137,15 @@ lang = com.google.gwt.user.client.Window.Location.getParameter("lang");
 
 if (lang == null) {lang="en";}
 
+
+
+/*
+This section is not very good solution for separating languages, it needs to be reworked
+Ideally this should go to XML file.
+Developed this way to test it and never had a chance to change it.
+*/
+
+
 //Slovak
 if (lang.equals("sk")==true) {
 lblMortgageLabel.setText ( "Vyska Hypoteky" ) ;
@@ -154,7 +163,7 @@ lblinterestpaidforterm.setText ( "Celkovy Urok:" ) ;
 lblextrapaymentssaved.setText ( "Platby navyse usetrili:" ) ;
 //lblextrapaymentnewdate.setText ( "Datum splatenia s platbami navyse:" ) ;
 lblamortlabel.setText ( "Splatkovy Kalendar (Mesacna Amortizacna Tabulka)" ) ;
-lblcopyright.setText ( " Copyright - ETX Software as, Vsetky Prava Vyhradene." ) ;
+lblcopyright.setText ( " Copyright - ETX Software as, Vsetky Prava Vyhradene." ) ; // This line can be changed to your liking, as long as you reference open source project: https://github.com/JozefJarosciak/MortgageCalculator and www.ETX.ca
 years = "rokov";
 days = "dni";
 
@@ -190,7 +199,7 @@ lblinterestpaidforterm.setText("Interest Paid for Term:");
 lblextrapaymentssaved.setText("Extra Payments Saved:");
 //lblextrapaymentnewdate.setText("Pay-Off Date with Extra Payments. In:");
 lblamortlabel.setText("Amortization Schedule (monthly payments)");
-lblcopyright.setText("Copyright - ETX Software Inc., All Rights Reserved.");
+lblcopyright.setText("Copyright - ETX Software Inc., All Rights Reserved.");  // This line can be changed to your liking, as long as you reference open source project: https://github.com/JozefJarosciak/MortgageCalculator and www.ETX.ca
 years = "years";
 days = "days";
 
