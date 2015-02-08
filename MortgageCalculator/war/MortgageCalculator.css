@@ -1,0 +1,87 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #777777;
+  margin: 5px 30px 0px;
+  text-align: left;
+}
+
+
+h2 {
+  margin: 0px 30px 0px;
+  font-size: 14px;
+  color: #ff6600;
+  text-align: left;
+}
+
+hr {
+  color: #ff6600;
+}
+
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+
+
+.gwt-mortgageamountTextbox {
+   background-color: yellow;	
+   text-align: right;
+}
+
+.gwt-Textbox {
+   background-color: white;	
+   text-align: right;
+}
+
+
+.gwt-PayoffDate {
+ color: #0593b7;
+  font-weight: bold;
+  font-size: 14pt;
+}
+ 
+.gwt-paymentlabel {
+   text-align: left;
+}
+
+  .gwt-htmlpanel {
+  margin: 30px 30px 60px;
+  vertical-align: middle;
+   }
+
+.gwt-monthlypayment {
+  color: #0593b7;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.gwt-terminyears {
+  color: #808080;
+  font-size: 10pt;
+}
+
+.gwt-amortizationschedlabel {
+  color: #0593b7;
+  font-size: 10pt;
+    font-weight: bold;
+}
